@@ -1,0 +1,43 @@
+#content{
+    width: 1000px;
+    margin: auto;
+}
+
+#list_div{
+    padding: 20px 10px;
+    width: 320px;
+    float: left;
+}
+
+#image_div{
+    height: 426px;
+    width: 640px;
+    float: right;
+    border: 2px solid rgba(0,0,0, 0.7);
+    overflow: hidden;
+}
+
+
+.first{
+    background: rgba(0,0,300,0.1);
+}
+
+.second{
+    background: rgba(0,100,300,0.1);
+}
+
+.hidden{
+    display: none;
+}
+
+
+table{
+    width: 320px;
+    text-align: center;
+    border: 1px black solid;
+}
+
+tr:hover{
+    background: rgba(100,100,200,0.2);
+    cursor: pointer;
+}
