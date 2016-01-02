@@ -1,6 +1,7 @@
 document.body.innerHTML = '';
 
-var catNamesString = prompt('Enter the cats names separated by coma to initialize the page');
+var catNamesString = prompt('Enter the cats names separated by coma to initialize the page',
+                            'Fluffy, Scratchy, JD, Morrison, Meowie');
 
 (function createNative() {
     var content = document.createElement('div'), // body level 1
@@ -82,3 +83,5 @@ function drawImage(cat){
 
     image.className = 'active'; // and mark an image class as active
 }
+
+document.getElementById('image_div').firstElementChild.className = 'active';
